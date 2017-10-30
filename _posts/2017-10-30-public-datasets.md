@@ -2,14 +2,14 @@
 published: true
 layout: post
 future: true
-title:  "Public Datasets"
+title: Public Datasets
 category: Machine Learning
 ---
 Follow my curated public data sources for machine learning studies. Please, if you know any good dataset which is not listed, let me know.
 
 ### Streaming
 
-Twitter API (https://dev.twitter.com/streaming/overview)- The twitter API is a classic source for streaming data. You can track tweets, hashtags, and more.
+[Twitter API] (https://dev.twitter.com/streaming/overview)- The twitter API is a classic source for streaming data. You can track tweets, hashtags, and more.
 
 StockTwits API (https://stocktwits.com/developers/docs) - StockTwits is like a twitter for traders and investors. You can expand this dataset in many interesting ways by joining it to time series datasets using the timestamp and ticker symbol.
 
