@@ -9,7 +9,7 @@ title:               Michel Fernandes
 tagline:             'Solutions Architect'
 description:         'Um pouco sobre Java, Python e C# aplicados a Machine Learning e Chatbots.'
 url:                 
-baseurl:             ''
+baseurl:             'michelpf.github.io'
 paginate:            5
 
 # About/contact
