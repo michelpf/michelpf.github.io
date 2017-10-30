@@ -1,5 +1,6 @@
 ---
 published: false
+layout: post
 ---
 Follow my curated public data sources for machine learning studies. Please, if you know any good dataset which is not listed, let me know.
 
@@ -60,4 +61,3 @@ YouTube 8M (https://research.google.com/youtube8m/) - Ready to tackle videos, bu
 ### Source
 
 https://elitedatascience.com/datasets
-
