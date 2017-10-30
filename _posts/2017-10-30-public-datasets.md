@@ -9,13 +9,13 @@ Follow my curated public data sources for machine learning studies. Please, if y
 
 ### Streaming
 
-[Twitter API] (https://dev.twitter.com/streaming/overview)- The twitter API is a classic source for streaming data. You can track tweets, hashtags, and more.
+[Twitter API](https://dev.twitter.com/streaming/overview)- The twitter API is a classic source for streaming data. You can track tweets, hashtags, and more.
 
-StockTwits API (https://stocktwits.com/developers/docs) - StockTwits is like a twitter for traders and investors. You can expand this dataset in many interesting ways by joining it to time series datasets using the timestamp and ticker symbol.
+[StockTwits API](https://stocktwits.com/developers/docs) - StockTwits is like a twitter for traders and investors. You can expand this dataset in many interesting ways by joining it to time series datasets using the timestamp and ticker symbol.
 
-Weather Underground (https://www.wunderground.com/weather/api/) - A reliable weather API with global coverage. Features a free tier and paid options for scaling up.
+[Weather Underground](https://www.wunderground.com/weather/api/) - A reliable weather API with global coverage. Features a free tier and paid options for scaling up.
 
-Satori (https://www.satori.com/explore) - Satori is a platform that lets you connect to streaming live data at ultra-low latency (for free). They frequently add new datasets.
+[Satori](https://www.satori.com/explore) - Satori is a platform that lets you connect to streaming live data at ultra-low latency (for free). They frequently add new datasets.
 
 ### Recommendation
 
