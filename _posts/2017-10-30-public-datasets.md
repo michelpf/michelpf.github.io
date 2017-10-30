@@ -2,6 +2,8 @@
 published: true
 layout: post
 future: true
+title:  "Public Datasets"
+category: Machine Learning
 ---
 Follow my curated public data sources for machine learning studies. Please, if you know any good dataset which is not listed, let me know.
 
