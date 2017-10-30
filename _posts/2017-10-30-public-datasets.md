@@ -1,37 +1,63 @@
 ---
 published: false
 ---
+Follow my curated public data sources for machine learning studies. Please, if you know any good dataset which is not listed, let me know.
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+### Streaming
 
-### Built on Poole
+Twitter API (https://dev.twitter.com/streaming/overview)- The twitter API is a classic source for streaming data. You can track tweets, hashtags, and more.
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Lanyon here) includes the following:
+StockTwits API (https://stocktwits.com/developers/docs) - StockTwits is like a twitter for traders and investors. You can expand this dataset in many interesting ways by joining it to time series datasets using the timestamp and ticker symbol.
 
-* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+Weather Underground (https://www.wunderground.com/weather/api/) - A reliable weather API with global coverage. Features a free tier and paid options for scaling up.
 
-### Lanyon features
+Satori (https://www.satori.com/explore) - Satori is a platform that lets you connect to streaming live data at ultra-low latency (for free). They frequently add new datasets.
 
-In addition to the features of Poole, Lanyon adds the following:
+### Recommendation
 
-* Toggleable sliding sidebar (built with only CSS) via **☰** link in top corner
-* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `<body>` classes
-* [Eight optional color schemes](https://github.com/poole/lanyon#themes), available via `<body>` classes
+MovieLens (https://grouplens.org/datasets/movielens/) - Rating data sets from the MovieLens web site. Perfect for getting started thanks to the various dataset sizes available.
 
-[Head to the readme](https://github.com/poole/lanyon#readme) to learn more.
+Jester (http://www.ieor.berkeley.edu/~goldberg/jester-data/) - Ideal for building a simple collaborative filter. Contains 4.1 Million continuous ratings (-10.00 to +10.00) of 100 jokes from 73,421 users.
 
-### Browser support
+Million Song Dataset (https://www.kaggle.com/c/msdchallenge#description) - Large, rich dataset for music recommendations. You can start with a pure collaborative filter and then expand it with other methods such as content-based models or web scraping.
 
-Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+entaroadun (https://gist.github.com/entaroadun/1653794) - Collection of datasets for recommender systems. Tip: Check the comments section for recent datasets.
 
-### Download
+### Temporal Analysis
 
-Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.
+EOD Stock Prices (https://www.quandl.com/product/WIKIP/WIKI/PRICES-Quandl-End-Of-Day-Stocks-Info) - End of day stock prices, dividends, and splits for 3,000 US companies, curated by the Quandl community.
 
-Thanks!
+Zillow Real Estate Research (https://www.quandl.com/data/ZILLOW-Zillow-Real-Estate-Research) - Home prices and rents by size, type, and tier, sliced by zip code, neighborhood, city, metro area, county and state.
+
+Global Education Statistics (http://data.worldbank.org/data-catalog/ed-stats) - Over 4,000 internationally comparable indicators for education access, progression, completion, literacy, teachers, population, and expenditures.
+
+Quandl (https://www.quandl.com/search?query=) - Quandl contains free and premium time series datasets for financial analysis.
+
+The World Bank (http://data.worldbank.org/data-catalog/) - Contains global macroeconomic time series and searchable by country or indicator.
+
+### Natural Langugage Processing (NLP)
+
+Enron Dataset (https://www.cs.cmu.edu/~./enron/) - Email data from the senior management of Enron, organized into folders. This dataset was originally made public and posted to the web by the Federal Energy Regulatory Commission during its investigation.
+
+Amazon Reviews (https://snap.stanford.edu/data/web-Amazon.html) - Contains ~35 million reviews from Amazon spanning 18 years. Data include product and user information, ratings, and the plaintext review.
+
+Newsgroup Classification (http://qwone.com/~jason/20Newsgroups/) - Collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different newsgroups. Great for practicing text classification and topic modeling.
+
+nlp-datasets (https://github.com/niderhoff/nlp-datasets) - Alphabetical list of free/public domain datasets with text data for use in NLP.
+
+Quora Answer (https://www.quora.com/Datasets-What-are-the-major-text-corpora-used-by-computational-linguists-and-natural-language-processing-researchers-and-what-are-the-characteristics-biases-of-each-corpus) - List of annotated corpora for NLP.
+
+### Deep learning
+
+MNIST (http://yann.lecun.com/exdb/mnist/) - MNIST contains images for handwritten digit classification. It's considered a great entry dataset for deep learning because it's complex enough to warrant neural networks, while still being manageable on a single CPU. (We also have a tutorial.)
+
+CIFAR (http://www.cs.utoronto.ca/~kriz/cifar.html) - The next step up in difficulty is the CIFAR-10 dataset, which contains 60,000 images broken into 10 different classes. For a bigger challenge, you can try the CIFAR-100 dataset, which has 100 different classes.
+
+ImageNet (http://image-net.org/) - ImageNet hosts a computer vision competition every year, and many consider it to be the benchmark for modern performance. The current image dataset has 1000 different classes.
+
+YouTube 8M (https://research.google.com/youtube8m/) - Ready to tackle videos, but can't spare terabytes of storage? This dataset contains millions of YouTube video ID's and billions of audio and visual features that were pre-extracted using the latest deep learning models.
+
+### Source
+
+https://elitedatascience.com/datasets
+
